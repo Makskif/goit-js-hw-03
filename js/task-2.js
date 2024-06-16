@@ -1,8 +1,9 @@
+console.log('task-2');
+
 function makeArray(firstArray, secondArray, maxLength) {
-    let result = [];
-  result = firstArray.concat(secondArray);
+  let result = firstArray.concat(secondArray);
   result = result.slice(0, maxLength);
-  result = result.join(' ');
+  // result = result.join(' ');
   return result;
 }
 

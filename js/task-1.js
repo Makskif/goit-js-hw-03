@@ -1,3 +1,5 @@
+console.log('task-1');
+
 function slugify(title) {
     let message = title.toLowerCase ();
     message = message.split(" ");
